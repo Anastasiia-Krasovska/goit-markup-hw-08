@@ -1,0 +1,95 @@
+.activities__title {
+    color: $titleColor;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-activities {
+    margin-bottom: 94px;
+    padding-top: 0;
+}
+
+.section-activities .container {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.activities__list {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin: 0;
+}
+
+.activities__list__item {
+    width: 370px;
+}
+
+.activities__list__item+.activities__list__item {
+    margin-left: 30px;
+}
+
+.activities__list__photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.activities-overlay {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 0;
+    width: 370px;
+    height: 70px;
+    position: absolute;
+    transform: translateY(-100%);
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.activities-overlay__label {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 27px;
+}
+.activities-overlay {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 0;
+    width: 370px;
+    height: 70px;
+    position: absolute;
+    transform: translateY(-100%);
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.activities-overlay__label {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 27px;
+}

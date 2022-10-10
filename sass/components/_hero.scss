@@ -1,0 +1,45 @@
+.hero {
+    text-align: center;
+    background-color: $bgColor;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/img-people.jpg);
+}
+
+.hero__title {
+    color: $heroColor;
+    margin-top: 0;
+    width: 696px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero__button {
+    cursor: pointer;
+    color: $heroColor;
+    background-color:$accentColor;
+    min-width: 216px;
+    font-family: inherit;
+    padding: 10px 32px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+    border: 0;
+    border-radius: 4px;
+}

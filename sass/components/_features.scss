@@ -1,0 +1,86 @@
+.features__title {
+    color: $titleColor;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.section-features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.features__title {
+    display: none;
+}
+
+.section-features .container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features__list {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.features__list__item::before {
+    margin-bottom: 30px;
+    display: block;
+    content: "";
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(245, 244, 250, 1);
+}
+
+.features__list__item:nth-child(1)::before {
+    background-image: url(../images/antenna.svg);
+}
+
+.features__list__item:nth-child(2)::before {
+    background-image: url(../images/clock.svg);
+}
+
+.features__list__item:nth-child(3)::before {
+    background-image: url(../images/diagram.svg);
+}
+
+.features__list__item:nth-child(4)::before {
+    background-image: url(../images/astronaut.svg);
+}
+
+.features__list__item+.features__list__item {
+    margin-left: 30px;
+}
+
+.features__list__title {
+    color: $titleColor;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.features__list__title__explanation {
+    color: $primaryColor;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.71;
+}
+
+.features__list {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+}

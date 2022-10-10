@@ -1,0 +1,190 @@
+.adress {
+    background-color: $bgColor;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+}
+
+.adress .container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: baseline;
+}
+
+.nav-footer__list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-footer__logo a {
+    text-decoration: none;
+}
+
+.nav-footer__logo .colortext {
+    color: $accentColor;
+}
+
+.nav-footer__logo {
+    margin-bottom: 20px;
+    display: block;
+    color: $heroColor;
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.nav-footer__title a {
+    color: $primaryColor;
+    text-decoration: none;
+    list-style: none;
+    font-style: normal;
+    line-height: 1.71;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-footer__link {
+    margin-top: 9px;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.nav-footer__title a {
+    color: $heroColor;
+}
+
+.nav-footer__title :hover,
+.nav-footer__title:focus {
+    color: $accentColor;
+}
+
+.nav-footer__link:hover,
+.nav-footer__link:focus {
+    color: $accentColor;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.join {
+    display: block;
+    margin-left: 70px;
+}
+
+.join__title {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.join .social-icons {
+    margin: 0;
+}
+
+.join .social-icons__icon {
+    fill: $heroColor;
+}
+
+.join .social-icons__item {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.join .social-icons__item:hover,
+.join .social-icons__item:focus {
+    background-color: $accentColor;
+}
+.join__email {
+    margin-left: auto;
+}
+
+.join__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.join__input {
+    width: 358px;
+    height: 50px;
+    background-color: rgba(47, 48, 58, 1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding-left: 0;
+    padding-left: 16px;
+    color: $heroColor;
+}
+
+.join__input::placeholder {
+    padding-left: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.join__button button {
+    width: 200px;
+    height: 50px;
+    color: $heroColor;
+    background-color: $accentColor;
+    border: none;
+    border-radius: 4px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding-left: 28px;
+    padding-right: 62px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url(../images/icon\ send-min.svg);
+    background-repeat: no-repeat;
+    background-position: 83.31% 50%;
+    margin-left: 12px;
+}
+
+.join__form {
+    display: inline-flex;
+}
