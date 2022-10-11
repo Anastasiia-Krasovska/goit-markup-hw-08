@@ -12,6 +12,9 @@
 .section-activities {
     margin-bottom: 94px;
     padding-top: 0;
+        @media screen and (max-width: 1199px) {
+                display: none;
+            }
 }
 
 .section-activities .container {
@@ -21,6 +24,7 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
+
 }
 
 .activities__list {

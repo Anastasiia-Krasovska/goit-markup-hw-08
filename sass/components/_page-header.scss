@@ -11,12 +11,13 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    @media screen and(max-width:767px) {
+            padding-top: 16px;
+        }
+    
+    
 }
 
-.main-nav__logo a:hover,
-.main-nav__logo a:focus {
-    color: $titleColor;
-}
 
 .main-nav__logo .colortext {
     color: $accentColor;
@@ -25,6 +26,9 @@
 .main-nav__list {
     display: flex;
     margin-left: 93px;
+        @media screen and(max-width:767px) {
+                display: none;
+            }
 }
 
 .main-nav__list .list__item+.list__item {
@@ -71,11 +75,22 @@
 }
 
 .page-header .container {
-    width: 1200px;
+ 
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+
+    @media screen and(min-width:480px) {
+            width: 480px; 
+            height: 60px;  
+        }
+        @media screen and(min-width:768px) {
+            width: 768px;
+            height: 80px;
+        }
+                   @media screen and(min-width:1200px) {
+                       width: 1200px;
+                       height: 80px;
+                   }
 }
 
 .main-nav__adress {
@@ -83,8 +98,13 @@
     margin-left: auto;
     justify-content: center;
     list-style: none;
+    @media screen and(max-width:767px) {
+            display: none;
+        }   
+                 @media screen and (min-width:768px) and(max-width:1199px) {
+                   display: block;
+                 }
 }
-
 .main-nav__adress .email__icon {
     height: 12px;
     width: 16px;
@@ -117,9 +137,6 @@
     color: $accentColor;
 }
 
-.main-nav__adress {
-    display: flex;
-}
 
 .adress__email {
     display: flex;
@@ -153,3 +170,39 @@
     display: flex;
     align-items: center;
 }
+
+       
+// .main-nav__menu{
+//     width: 40px;
+//     height: 40px;
+// }
+// .main-nav__cross{
+// width: 40px;
+//  height: 40px;
+// }
+
+// .js-menu-container {
+//             min-width: 320px;
+//             max-width: 1170px;
+//             padding-left: 15px;
+//             padding-right: 15px;
+//             margin-left: auto;
+//             margin-right: auto;
+//         }
+
+//  @media screen and(min-width:768px) {
+//     .menu-toggle {
+//             display: none;
+//         }
+//                 .mobile-nav__list {
+//                     display: none;
+//                 }
+        
+//                 .mobile-nav__adress {
+//                     display: none;
+//                 }
+        
+//                 .mobile-socials__list {
+//                     display: none;
+//                 }
+//  }
