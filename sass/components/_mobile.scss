@@ -57,11 +57,8 @@
 }
 
 .mobile-contact {
-  &__list {
-    margin-top: 302px;
-    margin-bottom: 64px;
-  }
-
+  margin-top: 302px;
+  margin-bottom: 64px;
   &__item {
     @include fontPreset(500, 34px, 40px, 00.02em);
 
@@ -126,12 +123,10 @@
   background: transparent;
   border: none;
   padding: 0;
+  fill: #212121;
 
   &--opened {
     @include centeredFlex();
-    top: 10px;
-    right: 15px;
-    position: absolute;
   }
 
   &.is-open .burger__icon-opened {
